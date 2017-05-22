@@ -1,13 +1,13 @@
 # General
 of.general.ambiguous=zavaros
 of.general.custom=Egyéni
-of.general.from=-ból
-of.general.id=Id
+of.general.from=innen
+of.general.id=Azonosító
 of.general.restart=újraindítás
 of.general.smart=Okos
 
 # Keys
-of.key.zoom=Zoom
+of.key.zoom=Ráközelítés
 
 # Message
 of.message.aa.shaders1=Az Élsimítás nem kompatibilis a shaderekkel.
@@ -138,7 +138,7 @@ of.options.chunkLoading.smooth=Lágy
 of.options.chunkLoading.multiCore=Kétmagos
 
 of.options.shaders=Shaderek...
-of.options.shadersTitle=Árnyékok és egyéb finomságok
+of.options.shadersTitle=Shaderbeállítások
 
 of.options.shaders.packNone=KI
 of.options.shaders.packDefault=(belső)
@@ -157,24 +157,24 @@ of.options.shaders.SHADER_PACK=Shader Csomag
 of.options.shaders.shadersFolder=Shaderek mappája
 of.options.shaders.shaderOptions=Shader Beállítások...
 
-of.options.shaderOptionsTitle=Shader Beállítások
+of.options.shaderOptionsTitle=Shaderbeállítások
 
 of.options.quality=Minőség...
-of.options.qualityTitle=Minőségi Beállítások
+of.options.qualityTitle=Minőség beállításai
 
 of.options.details=Részletek...
-of.options.detailsTitle=Részletbeállítások
+of.options.detailsTitle=Részletek beállításai
 
 of.options.performance=Teljesítmény...
-of.options.performanceTitle=Teljesítmény Beállítások
+of.options.performanceTitle=Teljesítménybeállítások
 
 of.options.animations=Animációk...
-of.options.animationsTitle=Animáció Beállítások
+of.options.animationsTitle=Animáció beállításai
 
 of.options.other=Egyéb...
-of.options.otherTitle=Egyéb Beállítások
+of.options.otherTitle=Egyéb beállítások
 
-of.options.other.reset=Videóbeállítások Törlése...
+of.options.other.reset=Videóbeállítások törlése...
 
 of.shaders.profile=Profil
 
@@ -417,7 +417,7 @@ of.options.SMOOTH_FPS.tooltip.1=Stabilizálja az FPS-t a grafikus beghajtő buff
 of.options.SMOOTH_FPS.tooltip.2=  KI - nincs stabilizálás, FPS inoghat
 of.options.SMOOTH_FPS.tooltip.3=  BE - FPS stabilizáció
 of.options.SMOOTH_FPS.tooltip.4=Ez a beállítás grafikus meghajtó függő, és a hatása
-of.options.SMOOTH_FPS.tooltip.5=nem mindíg látható.
+of.options.SMOOTH_FPS.tooltip.5=nem mindig látható.
 
 of.options.SMOOTH_WORLD=Sima Világ
 of.options.SMOOTH_WORLD.tooltip.1=Eltávolítja a "lagtüskéket", amit a helyi szerver okoz.
@@ -470,35 +470,35 @@ of.options.animation.allOn=Mind BE
 of.options.animation.allOff=Mind KI
 of.options.animation.dynamic=Dinamikus
 
-of.options.ANIMATED_WATER=Animált Víz
-of.options.ANIMATED_LAVA=Animált Láva
-of.options.ANIMATED_FIRE=Animált Tűz
-of.options.ANIMATED_PORTAL=Animált Portál
-of.options.ANIMATED_REDSTONE=Animált Vöröskő
-of.options.ANIMATED_EXPLOSION=Animált Robbanás
-of.options.ANIMATED_FLAME=Animált Lángok
-of.options.ANIMATED_SMOKE=Animált Füst
-of.options.VOID_PARTICLES=Űr Részecskék
-of.options.WATER_PARTICLES=Víz Részecskék
-of.options.RAIN_SPLASH=Eső Felcsapódás
-of.options.PORTAL_PARTICLES=Portál Részecskék
-of.options.POTION_PARTICLES=Bájital Részecskék
-of.options.DRIPPING_WATER_LAVA=Kicsapó Víz/Láva
-of.options.ANIMATED_TERRAIN=Animált Terep
-of.options.ANIMATED_TEXTURES=Animált Textúrák
-of.options.FIREWORK_PARTICLES=Tüzijáték Részecskék
+of.options.ANIMATED_WATER=Animált víz
+of.options.ANIMATED_LAVA=Animált láva
+of.options.ANIMATED_FIRE=Animált tűz
+of.options.ANIMATED_PORTAL=Animált portál
+of.options.ANIMATED_REDSTONE=Animált Redstone
+of.options.ANIMATED_EXPLOSION=Animált robbanás
+of.options.ANIMATED_FLAME=Animált lángok
+of.options.ANIMATED_SMOKE=Animált füst
+of.options.VOID_PARTICLES=Az Űr részecskéi
+of.options.WATER_PARTICLES=Vízrészecskék
+of.options.RAIN_SPLASH=Eső felcsapódása
+of.options.PORTAL_PARTICLES=Portálrészecskék
+of.options.POTION_PARTICLES=Bájitalrészecskék
+of.options.DRIPPING_WATER_LAVA=Kicsapó víz/láva
+of.options.ANIMATED_TERRAIN=Animált terep
+of.options.ANIMATED_TEXTURES=Animált textúrák
+of.options.FIREWORK_PARTICLES=Tűzijátékrészecskék
 
 # Other
 
 of.options.LAGOMETER=Lagmérő
 of.options.LAGOMETER.tooltip.1=Mutatja a lagmérőt a hibakereső képernyőn (F3).
-of.options.LAGOMETER.tooltip.2=* Orange - Memóriaszemét gyűjtemény
-of.options.LAGOMETER.tooltip.3=* Cyan - "kegyegés"
-of.options.LAGOMETER.tooltip.4=* Blue - Ütemezett végrehajthatók
-of.options.LAGOMETER.tooltip.5=* Purple - Területfeltöltés
-of.options.LAGOMETER.tooltip.6=* Red - Terület frissítés
-of.options.LAGOMETER.tooltip.7=* Yellow - Láthatóságfigyelő
-of.options.LAGOMETER.tooltip.8=* Green - Terep renderelése
+of.options.LAGOMETER.tooltip.2=* Narancs - Memóriaszemét gyűjtemény
+of.options.LAGOMETER.tooltip.3=* Cián - "kegyegés"
+of.options.LAGOMETER.tooltip.4=* Kék - Ütemezett végrehajthatók
+of.options.LAGOMETER.tooltip.5=* Lila - Területfeltöltés
+of.options.LAGOMETER.tooltip.6=* Vörös - Terület frissítés
+of.options.LAGOMETER.tooltip.7=* Sárga - Láthatóságfigyelő
+of.options.LAGOMETER.tooltip.8=* Zöld - Terep renderelése
 
 of.options.PROFILER=Hibakereső Profil
 of.options.PROFILER.tooltip.1=Hibakereső Profil
@@ -514,29 +514,29 @@ of.options.WEATHER.tooltip.3=  KI - az időjárás nem aktív, gyorsabb
 of.options.WEATHER.tooltip.4=Az időjárás irányítja az esőket, havazásokat, és a viharokat.
 of.options.WEATHER.tooltip.5=Az időjárás irányítása csak helyi világokban lehetséges.
 
-of.options.time.dayOnly=Csak Nappal
-of.options.time.nightOnly=Csak Éjszaka
+of.options.time.dayOnly=Csak nappal
+of.options.time.nightOnly=Csak éjszaka
 
 of.options.TIME=Idő
 of.options.TIME.tooltip.1=Idő
 of.options.TIME.tooltip.2= Alapértelmezett - normális éjjel-nappal körforgás
-of.options.TIME.tooltip.3= Csak Nappal - csak nappal
-of.options.TIME.tooltip.4= Csak Éjszaka - csak éjszaka
+of.options.TIME.tooltip.3= Csak nappal - csak nappal
+of.options.TIME.tooltip.4= Csak éjszaka - csak éjszaka
 of.options.TIME.tooltip.5=Az Idő beállítás csak KREATÍV módban,
 of.options.TIME.tooltip.6=és helyi világokban effektív.
 
-options.fullscreen.tooltip.1=Teljes Képernyő
+options.fullscreen.tooltip.1=Teljes képernyő
 options.fullscreen.tooltip.2=  BE - teljes képernyős mód használata
 options.fullscreen.tooltip.3=  KI - ablakos mód használata
-options.fullscreen.tooltip.4=A teljes képergyős mód gyorsabb, vagy lassabb lehet, mint
-options.fullscreen.tooltip.5=az ablakos mód a videókártyától függően.
+options.fullscreen.tooltip.4=A teljes képernyős mód lehet gyorsabb vagy lassabb
+options.fullscreen.tooltip.5=az ablakos módnál, a videókártyától függően.
 
-of.options.FULLSCREEN_MODE=Teljes Képernyős Mód
-of.options.FULLSCREEN_MODE.tooltip.1=Teljes Képernyős mód
+of.options.FULLSCREEN_MODE=Teljes képernyős mód
+of.options.FULLSCREEN_MODE.tooltip.1=Teljes képernyős mód
 of.options.FULLSCREEN_MODE.tooltip.2=  Alapértelmezett - asztal méretének használata, lassabb
 of.options.FULLSCREEN_MODE.tooltip.3=  WxH - egyéni felbontás használata, lehet gyorsabb
 of.options.FULLSCREEN_MODE.tooltip.4=A kiválasztott felbontás a teljes képernyős módban használatos (F11).
-of.options.FULLSCREEN_MODE.tooltip.5=Kisebb felbontások általában gyorsabbak.
+of.options.FULLSCREEN_MODE.tooltip.5=A kisebb felbontások általában gyorsabbak.
 
 of.options.SHOW_FPS=FPS Mutatása
 of.options.SHOW_FPS.tooltip.1=Mutatja a jelenlegi FPS számot, és renderelési információkat
@@ -551,9 +551,9 @@ of.options.save.20s=20mp
 of.options.save.3min=3p
 of.options.save.30min=30p
 
-of.options.AUTOSAVE_TICKS=Auto mentés
-of.options.AUTOSAVE_TICKS.tooltip.1=Az auto mentés intervalluma
-of.options.AUTOSAVE_TICKS.tooltip.2=Az alapértelmezett auto mentés intervallum (2mp) NEM JAVASOLT.
-of.options.AUTOSAVE_TICKS.tooltip.3=Az auto mentés okozza a híres "Halál lagtüskéjét" famous Lag Spike of Death.
+of.options.AUTOSAVE_TICKS=Automatikus mentés
+of.options.AUTOSAVE_TICKS.tooltip.1=Az automatikus mentés intervalluma
+of.options.AUTOSAVE_TICKS.tooltip.2=Az alapértelmezett automatikus mentés intervalluma (2mp) NEM JAVASOLT.
+of.options.AUTOSAVE_TICKS.tooltip.3=Az automatikus mentés okozza a híres "Halál lagtüskéjét".
 
 options.anaglyph.tooltip.1=A 3D mód piros-cián szemüveggel használatos.
